@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .marquee {
+            overflow: hidden;
+            white-space: nowrap;
+            box-sizing: border-box;
+            animation: marquee 15s linear infinite;
+        }
+        @keyframes marquee {
+            0%   { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 font-sans">
+
+    <!-- Header -->
+    <header class="bg-indigo-600 text-white p-4 flex items-center space-x-4">
+        <img src="logo.png" alt="โลโก้" class="h-12 w-12">
+        <h1 class="text-xl font-bold">สื่อการเรียนการสอน วิชาโปรแกรมฐานข้อมูล</h1>
+    </header>
+
+    <!-- Marquee -->
+    <div class="bg-yellow-300 text-black py-2">
+        <div class="marquee font-medium px-4">
+            ยินดีต้อนรับเข้าสู่เว็ปไซต์ สื่อการเรียนการสอน โปรแกรมฐานข้อมูล
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md p-4 flex flex-wrap justify-center items-center space-x-4 text-indigo-700 font-semibold relative">
+    <a href="index.html" class="hover:underline">Home</a>
+    <a href="about.html" class="hover:underline">About Us</a>
+    <a href="https://online.anyflip.com/ihlrh/kmjd/mobile/index.html" target="_blank" class="hover:underline">Course Syllabus</a>
+    <a href="https://forms.gle/18y4de5XSH7KhTnXA" target="_blank" class="hover:underline">Pre Test</a>
+
+    <!-- Content with dropdown -->
+    <div class="relative group">
+        <a href="#" class="hover:underline">Content</a>
+        <div class="absolute top-full left-0 w-36 bg-white shadow-md rounded hidden group-hover:block z-10">
+            <a href="โปรแกรมฐานข้อมูล-01.pptx" download class="block px-4 py-2 hover:bg-indigo-100">บทที่ 1</a>
+            <a href="โปรแกรมฐานข้อมูล-02.pptx" download class="block px-4 py-2 hover:bg-indigo-100">บทที่ 2</a>
+            <a href="โปรแกรมฐานข้อมูล-03.pptx" download class="block px-4 py-2 hover:bg-indigo-100">บทที่ 3</a>
+            <a href="โปรแกรมฐานข้อมูล-04.pptx" download class="block px-4 py-2 hover:bg-indigo-100">บทที่ 4</a>
+            <a href="โปรแกรมฐานข้อมูล-05.pptx" download class="block px-4 py-2 hover:bg-indigo-100">บทที่ 5</a>
+            <a href="https://forms.gle/rkhJBK9X9S4toKod8" target="_blank" class="block px-4 py-2 hover:bg-indigo-100">สอบกลางเทอม</a>
+            <a href="โปรแกรมฐานข้อมูล-06.pptx" download class="block px-4 py-2 hover:bg-indigo-100">บทที่ 6</a>
+            <a href="โปรแกรมฐานข้อมูล-07.pptx" download class="block px-4 py-2 hover:bg-indigo-100">บทที่ 7</a>
+            <a href="โปรแกรมฐานข้อมูล-08.pptx" download class="block px-4 py-2 hover:bg-indigo-100">บทที่ 8</a>
+            <a href="โปรแกรมฐานข้อมูล-09.pptx" download class="block px-4 py-2 hover:bg-indigo-100">บทที่ 9</a>
+            <a href="afterstudy.html" class="block px-4 py-2 hover:bg-indigo-100">แบบทดสอบหลังเรียน</a>
+            <a href="https://forms.gle/avRNKAsYJRs4jK9L8" target="_blank"class="block px-4 py-2 hover:bg-indigo-100">สอบปลายภาค</a>
+        </div>
+    </div>
+
+    <a href="contact.html" class="hover:underline">Contact</a>
+    <a href="https://forms.gle/wXtyE3qgMHPm26co7" target="_blank"class="hover:underline">Saticfication</a>
+    </a>
+</nav>
+    <!-- Main Section -->
+    <main class="max-w-7xl mx-auto p-6 grid grid-cols-1 md:grid-cols-4 gap-6">
+        <!-- Left Sidebar -->
+        <aside class="md:col-span-1 space-y-6">
+            <!-- ปฏิทิน -->
+            <div class="bg-white shadow rounded-lg p-4">
+                <h2 class="font-bold text-lg mb-2">ปฏิทิน</h2>
+                <iframe src="https://calendar.google.com/calendar/embed?src=th.th%23holiday%40group.v.calendar.google.com&ctz=Asia%2FBangkok" style="border: 0" width="100%" height="300" frameborder="0" scrolling="no"></iframe>
+            </div>
+
+            <!-- ลิ้งอ้างอิง -->
+            <div class="bg-white shadow rounded-lg p-4">
+                <h2 class="font-bold text-lg mb-2">เว็ปไซต์ที่เกี่ยวข้อง</h2>
+                <ul class="list-disc list-inside space-y-2 text-blue-600">
+                    <li><a href="https://aimphan.co.th/product/%e0%b9%82%e0%b8%9b%e0%b8%a3%e0%b9%81%e0%b8%81%e0%b8%a3%e0%b8%a1%e0%b8%90%e0%b8%b2%e0%b8%99%e0%b8%82%e0%b9%89%e0%b8%ad%e0%b8%a1%e0%b8%b9%e0%b8%a5-%e0%b8%9b%e0%b8%a7%e0%b8%8a67-68/" target="_blank">หนังสือรายวิชา</a></li>
+                    <li><a href="https://th.wikipedia.org/wiki/%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5" target="_blank">wikipedia</a></li>
+                    <li><a href="https://www.kkwtech.ac.th/mainpage" target="_blank">วิทยาลัยการอาชีพวังไกลกังวล ๒</a></li>
+                    <li><a href="https://irvvk2.blogspot.com/" target="_blank">เว็บไซต์อ้างอิงเพิ่มเติม</a></li>
+                    <li><a href="https://resourcekkw2.blogspot.com/" target="_blank">เว็บไซต์อ้างอิงเพิ่มเติม</a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Center Content -->
+        <section class="md:col-span-2 space-y-4">
+    <h2 class="text-xl font-semibold mb-4 text-center">เกี่ยวกับเรา</h2>
+    <div class="flex flex-col md:flex-row justify-center items-center gap-8">
+        <!-- รูปคนที่ 1 -->
+        <div class="text-center">
+            <img src="person1.png" alt="Mr.Thiraphat Bluff" class="w-48 h-48 object-cover rounded-full mx-auto mb-2 shadow">
+            <h3 class="text-lg font-semibold">Mr.Thiraphat Bluff</h3>
+            <p class="text-sm text-gray-600">นักศึกษาวิทยาลัยการอาชีพวังไกลกังวล ๒</p>
+        </div>
+
+        <!-- รูปคนที่ 2 -->
+        <div class="text-center">
+            <img src="person2.png" alt="Mr.Siwanan Thongpong" class="w-48 h-48 object-cover rounded-full mx-auto mb-2 shadow">
+            <h3 class="text-lg font-semibold">Mr.Siwanat Thongpong</h3>
+            <p class="text-sm text-gray-600">นักศึกษาวิทยาลัยการอาชีพวังไกลกังวล ๒</p>
+        </div>
+    </div>
+</section>
+
+       <!-- Right Sidebar -->
+<aside class="md:col-span-1 space-y-6">
+  <div class="bg-white shadow rounded-lg p-4">
+    <a href="https://forms.gle/BCftqBhBS8hYj51T7" target="_blank" class="block bg-indigo-600 text-white text-center font-bold py-3 rounded-lg hover:bg-indigo-700 transition duration-300">
+      ลงทะเบียน
+    </a>
+  </div>
+
+<!-- กล่องลิงก์เพิ่มเติม -->
+  <div class="bg-white shadow rounded-lg p-4">
+    <h3 class="font-bold text-lg mb-2">🔗 ลิงก์เพิ่มเติม</h3>
+    <ul class="list-disc list-inside text-blue-600 text-sm space-y-1">
+      <li><a href="https://devhub.in.th/blog/sql-programming" target="_blank">ความรู้เบื้องต้นเกี่ยวกับ SQL</a></li>
+      <li><a href="https://simple.wikipedia.org/wiki/Structured_Query_Language" target="_blank">SQL Wikipedia</li>
+      <li><a href="https://datarockie.com/blog/understand-basic-sql-in-10-min/" target="_blank">มือใหม่หัดเขียน SQL</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/HTML" target="_blank">HTML Wikipedia</a></li>
+      <li><a href="https://www.designil.com/html-%E0%B8%84%E0%B8%B7%E0%B8%AD-%E0%B8%AA%E0%B8%AD%E0%B8%99%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99-html-%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%A1%E0%B8%B7%E0%B8%AD/" target="_blank">มือใหม่หัดเขียน HTML</a></li>
+      <li><a href="https://krupiyadanai.wordpress.com/%E0%B8%9A%E0%B8%97%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99-html/%E0%B8%A3%E0%B8%B9%E0%B9%89%E0%B8%88%E0%B8%B1%E0%B8%81%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2-html/" target="_blank">ความรู้เบื้องต้นเกี่ยวกับ HTML</a></li>
+    </ul>
+  </div>
+</aside>
+
+  </main>
+
+</body>
+</html>
