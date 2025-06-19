@@ -126,6 +126,22 @@
       <li><a href="https://krupiyadanai.wordpress.com/%E0%B8%9A%E0%B8%97%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99-html/%E0%B8%A3%E0%B8%B9%E0%B9%89%E0%B8%88%E0%B8%B1%E0%B8%81%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2-html/" target="_blank">ความรู้เบื้องต้นเกี่ยวกับ HTML</a></li>
     </ul>
   </div>
+<!-- เวลาประเทศไทย -->
+<div class="bg-white shadow rounded-lg p-4">
+  <h3 class="font-bold text-lg mb-2">🕒 เวลา (ประเทศไทย)</h3>
+  <p id="thai-time" class="text-xl text-center font-mono text-gray-800">--:--:--</p>
+</div>
+
+<script>
+  function updateThaiTime() {
+    const thaiTime = new Date().toLocaleTimeString('th-TH', {
+      timeZone: 'Asia/Bangkok'
+    });
+    document.getElementById('thai-time').textContent = thaiTime;
+  }
+  setInterval(updateThaiTime, 1000);
+  updateThaiTime();
+</script>
 </aside>
 
   </main>
